@@ -1,0 +1,1110 @@
+# depslib dependency file v1.0
+1262906776 source:c:\users\tristan\documents\cours\it2\opengl\train\geom2\carc.cpp
+	"CArc.h"
+	<string>
+
+1262906780 c:\users\tristan\documents\cours\it2\opengl\train\geom2\carc.h
+	<vector>
+	<string>
+
+1262906776 source:c:\users\tristan\documents\cours\it2\opengl\train\geom2\cdata2i.cpp
+	"CData2i.h"
+	"consts.h"
+
+1262906780 c:\users\tristan\documents\cours\it2\opengl\train\geom2\cdata2i.h
+
+1262906780 c:\users\tristan\documents\cours\it2\opengl\train\geom2\consts.h
+
+1329167013 source:c:\users\tristan\documents\cours\it2\opengl\train\geom2\cdonneesgraphe.cpp
+	"consts.h"
+	"CDonneesGraphe.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1262906780 c:\users\tristan\documents\cours\it2\opengl\train\geom2\cdonneesgraphe.h
+	<vector>
+	<string>
+	"CData2i.h"
+	"CPoint3f.h"
+
+1262906780 c:\users\tristan\documents\cours\it2\opengl\train\geom2\cpoint3f.h
+	<string>
+
+1262906776 source:c:\users\tristan\documents\cours\it2\opengl\train\geom2\cgraphe.cpp
+	"CGraphe.h"
+	<string>
+
+1262906780 c:\users\tristan\documents\cours\it2\opengl\train\geom2\cgraphe.h
+	<vector>
+	<string>
+	"CSegment.h"
+	"CArc.h"
+	"CSommet.h"
+	"CPointAnnexe.h"
+	"CDonneesGraphe.h"
+
+1262903168 c:\users\tristan\documents\cours\it2\opengl\train\geom2\csegment.h
+
+1262906780 c:\users\tristan\documents\cours\it2\opengl\train\geom2\csommet.h
+	<vector>
+	<string>
+	"CPoint3f.h"
+
+1262906780 c:\users\tristan\documents\cours\it2\opengl\train\geom2\cpointannexe.h
+	"CPoint3f.h"
+
+1262906776 source:c:\users\tristan\documents\cours\it2\opengl\train\geom2\cpoint3f.cpp
+	"CPoint3f.h"
+	"consts.h"
+
+1262906776 source:c:\users\tristan\documents\cours\it2\opengl\train\geom2\cpointannexe.cpp
+	"CPointAnnexe.h"
+
+1262903156 source:c:\users\tristan\documents\cours\it2\opengl\train\geom2\csegment.cpp
+	"CSegment.h"
+
+1262906776 source:c:\users\tristan\documents\cours\it2\opengl\train\geom2\csommet.cpp
+	"CSommet.h"
+	"Consts.h"
+
+1329254457 source:c:\users\tristan\documents\cours\it2\opengl\train\geom2\main.cpp
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	"CDonneesGraphe.h"
+	"CGraphe.h"
+	"CSommet.h"
+	<vector>
+
+1300973482 source:c:\users\tristan\documents\cours\it2\opengl\train\geom2\train.cpp
+	"train.h"
+
+1301233258 c:\users\tristan\documents\cours\it2\opengl\train\geom2\train.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1262906776 source:i:\opengl\train_faure_bauer\geom2\carc.cpp
+	"CArc.h"
+	<string>
+
+1262906780 i:\opengl\train_faure_bauer\geom2\carc.h
+	<vector>
+	<string>
+
+1262906776 source:i:\opengl\train_faure_bauer\geom2\cdata2i.cpp
+	"CData2i.h"
+	"consts.h"
+
+1262906780 i:\opengl\train_faure_bauer\geom2\cdata2i.h
+
+1262906780 i:\opengl\train_faure_bauer\geom2\consts.h
+
+1329167014 source:i:\opengl\train_faure_bauer\geom2\cdonneesgraphe.cpp
+	"consts.h"
+	"CDonneesGraphe.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1262906780 i:\opengl\train_faure_bauer\geom2\cdonneesgraphe.h
+	<vector>
+	<string>
+	"CData2i.h"
+	"CPoint3f.h"
+
+1262906780 i:\opengl\train_faure_bauer\geom2\cpoint3f.h
+	<string>
+
+1262906776 source:i:\opengl\train_faure_bauer\geom2\cgraphe.cpp
+	"CGraphe.h"
+	<string>
+
+1262906780 i:\opengl\train_faure_bauer\geom2\cgraphe.h
+	<vector>
+	<string>
+	"CSegment.h"
+	"CArc.h"
+	"CSommet.h"
+	"CPointAnnexe.h"
+	"CDonneesGraphe.h"
+
+1262903168 i:\opengl\train_faure_bauer\geom2\csegment.h
+
+1262906780 i:\opengl\train_faure_bauer\geom2\csommet.h
+	<vector>
+	<string>
+	"CPoint3f.h"
+
+1262906780 i:\opengl\train_faure_bauer\geom2\cpointannexe.h
+	"CPoint3f.h"
+
+1262906776 source:i:\opengl\train_faure_bauer\geom2\cpoint3f.cpp
+	"CPoint3f.h"
+	"consts.h"
+
+1262906776 source:i:\opengl\train_faure_bauer\geom2\cpointannexe.cpp
+	"CPointAnnexe.h"
+
+1262903156 source:i:\opengl\train_faure_bauer\geom2\csegment.cpp
+	"CSegment.h"
+
+1262906776 source:i:\opengl\train_faure_bauer\geom2\csommet.cpp
+	"CSommet.h"
+	"Consts.h"
+
+1329256822 source:i:\opengl\train_faure_bauer\geom2\main.cpp
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	"CDonneesGraphe.h"
+	"CGraphe.h"
+	"CSommet.h"
+	<vector>
+
+1300973482 source:i:\opengl\train_faure_bauer\geom2\train.cpp
+	"train.h"
+
+1301233258 i:\opengl\train_faure_bauer\geom2\train.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1262906776 source:f:\opengl\train_faure_bauer\geom2\carc.cpp
+	"CArc.h"
+	<string>
+
+1262906780 f:\opengl\train_faure_bauer\geom2\carc.h
+	<vector>
+	<string>
+
+1262906776 source:f:\opengl\train_faure_bauer\geom2\cdata2i.cpp
+	"CData2i.h"
+	"consts.h"
+
+1262906780 f:\opengl\train_faure_bauer\geom2\cdata2i.h
+
+1262906780 f:\opengl\train_faure_bauer\geom2\consts.h
+
+1329167014 source:f:\opengl\train_faure_bauer\geom2\cdonneesgraphe.cpp
+	"consts.h"
+	"CDonneesGraphe.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1262906780 f:\opengl\train_faure_bauer\geom2\cdonneesgraphe.h
+	<vector>
+	<string>
+	"CData2i.h"
+	"CPoint3f.h"
+
+1262906780 f:\opengl\train_faure_bauer\geom2\cpoint3f.h
+	<string>
+
+1262906776 source:f:\opengl\train_faure_bauer\geom2\cgraphe.cpp
+	"CGraphe.h"
+	<string>
+
+1262906780 f:\opengl\train_faure_bauer\geom2\cgraphe.h
+	<vector>
+	<string>
+	"CSegment.h"
+	"CArc.h"
+	"CSommet.h"
+	"CPointAnnexe.h"
+	"CDonneesGraphe.h"
+
+1262903168 f:\opengl\train_faure_bauer\geom2\csegment.h
+
+1262906780 f:\opengl\train_faure_bauer\geom2\csommet.h
+	<vector>
+	<string>
+	"CPoint3f.h"
+
+1262906780 f:\opengl\train_faure_bauer\geom2\cpointannexe.h
+	"CPoint3f.h"
+
+1262906776 source:f:\opengl\train_faure_bauer\geom2\cpoint3f.cpp
+	"CPoint3f.h"
+	"consts.h"
+
+1262906776 source:f:\opengl\train_faure_bauer\geom2\cpointannexe.cpp
+	"CPointAnnexe.h"
+
+1262903156 source:f:\opengl\train_faure_bauer\geom2\csegment.cpp
+	"CSegment.h"
+
+1262906776 source:f:\opengl\train_faure_bauer\geom2\csommet.cpp
+	"CSommet.h"
+	"Consts.h"
+
+1329256822 source:f:\opengl\train_faure_bauer\geom2\main.cpp
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	"CDonneesGraphe.h"
+	"CGraphe.h"
+	"CSommet.h"
+	<vector>
+
+1300973482 source:f:\opengl\train_faure_bauer\geom2\train.cpp
+	"train.h"
+
+1301233258 f:\opengl\train_faure_bauer\geom2\train.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\carc.cpp
+	"CArc.h"
+	<string>
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\carc.h
+	<vector>
+	<string>
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\cdata2i.cpp
+	"CData2i.h"
+	"consts.h"
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\cdata2i.h
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\consts.h
+
+1329170614 source:c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\cdonneesgraphe.cpp
+	"consts.h"
+	"CDonneesGraphe.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\cdonneesgraphe.h
+	<vector>
+	<string>
+	"CData2i.h"
+	"CPoint3f.h"
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\cpoint3f.h
+	<string>
+
+1331329738 source:c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\cgraphe.cpp
+	"CGraphe.h"
+	<iostream>
+	<string>
+
+1331329754 c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\cgraphe.h
+	<vector>
+	<string>
+	"CSegment.h"
+	"CArc.h"
+	"CSommet.h"
+	"CPointAnnexe.h"
+	"CDonneesGraphe.h"
+
+1262906768 c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\csegment.h
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\csommet.h
+	<vector>
+	<string>
+	"CPoint3f.h"
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\cpointannexe.h
+	"CPoint3f.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\cpoint3f.cpp
+	"CPoint3f.h"
+	"consts.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\cpointannexe.cpp
+	"CPointAnnexe.h"
+
+1262906756 source:c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\csegment.cpp
+	"CSegment.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\csommet.cpp
+	"CSommet.h"
+	"Consts.h"
+
+1300977082 source:c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\train.cpp
+	"train.h"
+
+1330622344 c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\train.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1332790971 source:c:\users\tristan\documents\cours\it2\opengl\train_faure_bauer\geom2\main.cpp
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	"CDonneesGraphe.h"
+	"CGraphe.h"
+	"CSommet.h"
+	<vector>
+
+1262910376 source:c:\users\nicolas\desktop\train_faure_bauer\geom2\carc.cpp
+	"CArc.h"
+	<string>
+
+1262910380 c:\users\nicolas\desktop\train_faure_bauer\geom2\carc.h
+	<vector>
+	<string>
+
+1262910376 source:c:\users\nicolas\desktop\train_faure_bauer\geom2\cdata2i.cpp
+	"CData2i.h"
+	"consts.h"
+
+1262910380 c:\users\nicolas\desktop\train_faure_bauer\geom2\cdata2i.h
+
+1262910380 c:\users\nicolas\desktop\train_faure_bauer\geom2\consts.h
+
+1329170614 source:c:\users\nicolas\desktop\train_faure_bauer\geom2\cdonneesgraphe.cpp
+	"consts.h"
+	"CDonneesGraphe.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1262910380 c:\users\nicolas\desktop\train_faure_bauer\geom2\cdonneesgraphe.h
+	<vector>
+	<string>
+	"CData2i.h"
+	"CPoint3f.h"
+
+1262910380 c:\users\nicolas\desktop\train_faure_bauer\geom2\cpoint3f.h
+	<string>
+
+1331329740 source:c:\users\nicolas\desktop\train_faure_bauer\geom2\cgraphe.cpp
+	"CGraphe.h"
+	<iostream>
+	<string>
+
+1331329756 c:\users\nicolas\desktop\train_faure_bauer\geom2\cgraphe.h
+	<vector>
+	<string>
+	"CSegment.h"
+	"CArc.h"
+	"CSommet.h"
+	"CPointAnnexe.h"
+	"CDonneesGraphe.h"
+
+1262906768 c:\users\nicolas\desktop\train_faure_bauer\geom2\csegment.h
+
+1262910380 c:\users\nicolas\desktop\train_faure_bauer\geom2\csommet.h
+	<vector>
+	<string>
+	"CPoint3f.h"
+
+1262910380 c:\users\nicolas\desktop\train_faure_bauer\geom2\cpointannexe.h
+	"CPoint3f.h"
+
+1262910376 source:c:\users\nicolas\desktop\train_faure_bauer\geom2\cpoint3f.cpp
+	"CPoint3f.h"
+	"consts.h"
+
+1262910376 source:c:\users\nicolas\desktop\train_faure_bauer\geom2\cpointannexe.cpp
+	"CPointAnnexe.h"
+
+1262906756 source:c:\users\nicolas\desktop\train_faure_bauer\geom2\csegment.cpp
+	"CSegment.h"
+
+1262910376 source:c:\users\nicolas\desktop\train_faure_bauer\geom2\csommet.cpp
+	"CSommet.h"
+	"Consts.h"
+
+1300977082 source:c:\users\nicolas\desktop\train_faure_bauer\geom2\train.cpp
+	"train.h"
+
+1333303277 c:\users\nicolas\desktop\train_faure_bauer\geom2\train.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1334225859 source:c:\users\nicolas\desktop\train_faure_bauer\geom2\main.cpp
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<math.h>
+	"CArc.h"
+	"CData2i.h"
+	"CDonneesGraphe.h"
+	"CPoint3f.h"
+	"CPointAnnexe.h"
+	"CSegment.h"
+	"CSommet.h"
+	"consts.h"
+	"CGraphe.h"
+	"train.h"
+	"wagon.h"
+	<vector>
+
+1333302723 c:\users\nicolas\desktop\train_faure_bauer\geom2\wagon.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1333302732 source:c:\users\nicolas\desktop\train_faure_bauer\geom2\wagon.cpp
+	"wagon.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\geom2\carc.cpp
+	"CArc.h"
+	<string>
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\geom2\carc.h
+	<vector>
+	<string>
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\geom2\cdata2i.cpp
+	"CData2i.h"
+	"consts.h"
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\geom2\cdata2i.h
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\geom2\consts.h
+
+1329170614 source:c:\users\tristan\documents\cours\it2\opengl\geom2\cdonneesgraphe.cpp
+	"consts.h"
+	"CDonneesGraphe.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\geom2\cdonneesgraphe.h
+	<vector>
+	<string>
+	"CData2i.h"
+	"CPoint3f.h"
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\geom2\cpoint3f.h
+	<string>
+
+1331329740 source:c:\users\tristan\documents\cours\it2\opengl\geom2\cgraphe.cpp
+	"CGraphe.h"
+	<iostream>
+	<string>
+
+1331329756 c:\users\tristan\documents\cours\it2\opengl\geom2\cgraphe.h
+	<vector>
+	<string>
+	"CSegment.h"
+	"CArc.h"
+	"CSommet.h"
+	"CPointAnnexe.h"
+	"CDonneesGraphe.h"
+
+1262906768 c:\users\tristan\documents\cours\it2\opengl\geom2\csegment.h
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\geom2\csommet.h
+	<vector>
+	<string>
+	"CPoint3f.h"
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\geom2\cpointannexe.h
+	"CPoint3f.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\geom2\cpoint3f.cpp
+	"CPoint3f.h"
+	"consts.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\geom2\cpointannexe.cpp
+	"CPointAnnexe.h"
+
+1262906756 source:c:\users\tristan\documents\cours\it2\opengl\geom2\csegment.cpp
+	"CSegment.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\geom2\csommet.cpp
+	"CSommet.h"
+	"Consts.h"
+
+1334246283 source:c:\users\tristan\documents\cours\it2\opengl\geom2\main.cpp
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<math.h>
+	<vector>
+	"CArc.h"
+	"CData2i.h"
+	"CDonneesGraphe.h"
+	"CPoint3f.h"
+	"CPointAnnexe.h"
+	"CSegment.h"
+	"CSommet.h"
+	"consts.h"
+	"CGraphe.h"
+	"train.h"
+	"wagon.h"
+
+1334246294 c:\users\tristan\documents\cours\it2\opengl\geom2\train.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1334246324 c:\users\tristan\documents\cours\it2\opengl\geom2\wagon.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1300977082 source:c:\users\tristan\documents\cours\it2\opengl\geom2\train.cpp
+	"train.h"
+
+1333302734 source:c:\users\tristan\documents\cours\it2\opengl\geom2\wagon.cpp
+	"wagon.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\carc.cpp
+	"CArc.h"
+	<string>
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\carc.h
+	<vector>
+	<string>
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\cdata2i.cpp
+	"CData2i.h"
+	"consts.h"
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\cdata2i.h
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\consts.h
+
+1329170614 source:c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\cdonneesgraphe.cpp
+	"consts.h"
+	"CDonneesGraphe.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\cdonneesgraphe.h
+	<vector>
+	<string>
+	"CData2i.h"
+	"CPoint3f.h"
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\cpoint3f.h
+	<string>
+
+1331329740 source:c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\cgraphe.cpp
+	"CGraphe.h"
+	<iostream>
+	<string>
+
+1331329756 c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\cgraphe.h
+	<vector>
+	<string>
+	"CSegment.h"
+	"CArc.h"
+	"CSommet.h"
+	"CPointAnnexe.h"
+	"CDonneesGraphe.h"
+
+1262906768 c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\csegment.h
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\csommet.h
+	<vector>
+	<string>
+	"CPoint3f.h"
+
+1262910380 c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\cpointannexe.h
+	"CPoint3f.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\cpoint3f.cpp
+	"CPoint3f.h"
+	"consts.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\cpointannexe.cpp
+	"CPointAnnexe.h"
+
+1262906756 source:c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\csegment.cpp
+	"CSegment.h"
+
+1262910376 source:c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\csommet.cpp
+	"CSommet.h"
+	"Consts.h"
+
+1300977082 source:c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\train.cpp
+	"train.h"
+
+1334246294 c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\train.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1333302734 source:c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\wagon.cpp
+	"wagon.h"
+
+1334246324 c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\wagon.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1334248495 source:c:\users\tristan\documents\cours\it2\opengl\opengl_faure_bauer\geom2\main.cpp
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<math.h>
+	<vector>
+	"CArc.h"
+	"CData2i.h"
+	"CDonneesGraphe.h"
+	"CPoint3f.h"
+	"CPointAnnexe.h"
+	"CSegment.h"
+	"CSommet.h"
+	"consts.h"
+	"CGraphe.h"
+	"train.h"
+	"wagon.h"
+
+1262910376 source:c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\carc.cpp
+	"CArc.h"
+	<string>
+
+1262910380 c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\carc.h
+	<vector>
+	<string>
+
+1262910376 source:c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cdata2i.cpp
+	"CData2i.h"
+	"consts.h"
+
+1262910380 c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cdata2i.h
+
+1262910380 c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\consts.h
+
+1329170614 source:c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cdonneesgraphe.cpp
+	"consts.h"
+	"CDonneesGraphe.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1262910380 c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cdonneesgraphe.h
+	<vector>
+	<string>
+	"CData2i.h"
+	"CPoint3f.h"
+
+1262910380 c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cpoint3f.h
+	<string>
+
+1331329740 source:c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cgraphe.cpp
+	"CGraphe.h"
+	<iostream>
+	<string>
+
+1331329756 c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cgraphe.h
+	<vector>
+	<string>
+	"CSegment.h"
+	"CArc.h"
+	"CSommet.h"
+	"CPointAnnexe.h"
+	"CDonneesGraphe.h"
+
+1262906768 c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\csegment.h
+
+1262910380 c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\csommet.h
+	<vector>
+	<string>
+	"CPoint3f.h"
+
+1262910380 c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cpointannexe.h
+	"CPoint3f.h"
+
+1262910376 source:c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cpoint3f.cpp
+	"CPoint3f.h"
+	"consts.h"
+
+1262910376 source:c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cpointannexe.cpp
+	"CPointAnnexe.h"
+
+1262906756 source:c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\csegment.cpp
+	"CSegment.h"
+
+1262910376 source:c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\csommet.cpp
+	"CSommet.h"
+	"Consts.h"
+
+1334248495 source:c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\main.cpp
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<math.h>
+	<vector>
+	"CArc.h"
+	"CData2i.h"
+	"CDonneesGraphe.h"
+	"CPoint3f.h"
+	"CPointAnnexe.h"
+	"CSegment.h"
+	"CSommet.h"
+	"consts.h"
+	"CGraphe.h"
+	"train.h"
+	"wagon.h"
+
+1334246294 c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\train.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1334246324 c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\wagon.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1300977082 source:c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\train.cpp
+	"train.h"
+
+1333302734 source:c:\users\hamza\documents\ensg\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\wagon.cpp
+	"wagon.h"
+
+1262910376 source:c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\carc.cpp
+	"CArc.h"
+	<string>
+
+1262910380 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\carc.h
+	<vector>
+	<string>
+
+1262910376 source:c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cdata2i.cpp
+	"CData2i.h"
+	"consts.h"
+
+1262910380 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cdata2i.h
+
+1262910380 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\consts.h
+
+1329170614 source:c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cdonneesgraphe.cpp
+	"consts.h"
+	"CDonneesGraphe.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1262910380 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cdonneesgraphe.h
+	<vector>
+	<string>
+	"CData2i.h"
+	"CPoint3f.h"
+
+1262910380 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cpoint3f.h
+	<string>
+
+1331329740 source:c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cgraphe.cpp
+	"CGraphe.h"
+	<iostream>
+	<string>
+
+1331329756 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cgraphe.h
+	<vector>
+	<string>
+	"CSegment.h"
+	"CArc.h"
+	"CSommet.h"
+	"CPointAnnexe.h"
+	"CDonneesGraphe.h"
+
+1262906768 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\csegment.h
+
+1262910380 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\csommet.h
+	<vector>
+	<string>
+	"CPoint3f.h"
+
+1262910380 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cpointannexe.h
+	"CPoint3f.h"
+
+1262910376 source:c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cpoint3f.cpp
+	"CPoint3f.h"
+	"consts.h"
+
+1262910376 source:c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\cpointannexe.cpp
+	"CPointAnnexe.h"
+
+1262906756 source:c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\csegment.cpp
+	"CSegment.h"
+
+1262910376 source:c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\csommet.cpp
+	"CSommet.h"
+	"Consts.h"
+
+1334248495 source:c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\main.cpp
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<math.h>
+	<vector>
+	"CArc.h"
+	"CData2i.h"
+	"CDonneesGraphe.h"
+	"CPoint3f.h"
+	"CPointAnnexe.h"
+	"CSegment.h"
+	"CSommet.h"
+	"consts.h"
+	"CGraphe.h"
+	"train.h"
+	"wagon.h"
+
+1401145005 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\train.h
+	"point.h"
+	"arc.h"
+	"pointAnnexe.h"
+
+1401145005 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\wagon.h
+	"point.h"
+	"arc.h"
+	"pointAnnexe.h"
+
+1300977082 source:c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\train.cpp
+	"train.h"
+
+1333302734 source:c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\wagon.cpp
+	"wagon.h"
+
+1401145005 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\point.h
+	<string>
+
+1401145005 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\pointannexe.h
+	"point.h"
+
+1401145005 c:\users\ferdaousse\desktop\opengl\opengl_faure_bauer\opengl_faure_bauer\geom2\arc.h
+	<vector>
+	<string>
+
+1300977082 source:c:\users\ferdaousse\desktop\opgl\train.cpp
+	"train.h"
+
+1334246294 c:\users\ferdaousse\desktop\opgl\train.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1401145005 c:\users\ferdaousse\desktop\opgl\point.h
+	<string>
+
+1401145005 c:\users\ferdaousse\desktop\opgl\arc.h
+	<vector>
+	<string>
+
+1401145005 c:\users\ferdaousse\desktop\opgl\pointannexe.h
+	"point.h"
+
+1333302734 source:c:\users\ferdaousse\desktop\opgl\wagon.cpp
+	"wagon.h"
+
+1334246324 c:\users\ferdaousse\desktop\opgl\wagon.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1401180974 source:c:\users\ferdaousse\desktop\opgl\arc.cpp
+	"arc.h"
+	<string>
+	<stdio.h>
+
+1401215535 source:c:\users\ferdaousse\desktop\opgl\data.cpp
+	"data.h"
+	"consts.h"
+
+1401215535 c:\users\ferdaousse\desktop\opgl\data.h
+
+1354571184 c:\users\ferdaousse\desktop\opgl\consts.h
+
+1401215535 source:c:\users\ferdaousse\desktop\opgl\datagraphe.cpp
+	"consts.h"
+	"dataGraphe.h"
+	"data.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<stdio.h>
+	<cstring>
+
+1401215535 c:\users\ferdaousse\desktop\opgl\datagraphe.h
+	<vector>
+	<string>
+	"data.h"
+	"point.h"
+
+1401215535 source:c:\users\ferdaousse\desktop\opgl\graphe.cpp
+	"graphe.h"
+	<iostream>
+	<string>
+
+1401145005 c:\users\ferdaousse\desktop\opgl\graphe.h
+	<vector>
+	<string>
+	"segment.h"
+	"arc.h"
+	"sommet.h"
+	"pointAnnexe.h"
+	"dataGraphe.h"
+
+1401145005 c:\users\ferdaousse\desktop\opgl\segment.h
+
+1401145005 c:\users\ferdaousse\desktop\opgl\sommet.h
+	<vector>
+	<string>
+	"point.h"
+
+1401232430 source:c:\users\ferdaousse\desktop\opgl\main.cpp
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<math.h>
+	<vector>
+	"CDonneesGraphe.h"
+	"CGraphe.h"
+	"CSommet.h"
+	"CPoint3f.h"
+	"CArc.h"
+	"CData2i.h"
+	"CPointAnnexe.h"
+	"CSegment.h"
+	"train.h"
+	"wagon.h"
+
+1401181367 source:c:\users\ferdaousse\desktop\opgl\point.cpp
+	"point.h"
+	"consts.h"
+	<stdio.h>
+
+1401181378 source:c:\users\ferdaousse\desktop\opgl\pointannexe.cpp
+	"pointAnnexe.h"
+	<stdio.h>
+
+1401145005 source:c:\users\ferdaousse\desktop\opgl\segment.cpp
+	"segment.h"
+
+1401181388 source:c:\users\ferdaousse\desktop\opgl\sommet.cpp
+	"sommet.h"
+	"Consts.h"
+	<stdio.h>
+
+1354571184 c:\users\ferdaousse\desktop\opgl\carc.h
+	<vector>
+	<string>
+
+1354571184 c:\users\ferdaousse\desktop\opgl\cdata2i.h
+
+1354571184 c:\users\ferdaousse\desktop\opgl\cdonneesgraphe.h
+	<vector>
+	<string.h>
+	"CData2i.h"
+	"CPoint3f.h"
+
+1354571184 c:\users\ferdaousse\desktop\opgl\cpoint3f.h
+	<string>
+
+1354571184 c:\users\ferdaousse\desktop\opgl\cpointannexe.h
+	"CPoint3f.h"
+
+1354571184 c:\users\ferdaousse\desktop\opgl\csegment.h
+
+1354571184 c:\users\ferdaousse\desktop\opgl\csommet.h
+	<vector>
+	<string>
+	"CPoint3f.h"
+
+1354571184 c:\users\ferdaousse\desktop\opgl\cgraphe.h
+	<vector>
+	<string>
+	"CSegment.h"
+	"CArc.h"
+	"CSommet.h"
+	"CPointAnnexe.h"
+	"CDonneesGraphe.h"
+	"consts.h"
+
+1354571184 source:c:\users\ferdaousse\desktop\opgl\carc.cpp
+	"CArc.h"
+	<string>
+	<stdio.h>
+
+1354571184 source:c:\users\ferdaousse\desktop\opgl\cdata2i.cpp
+	"CData2i.h"
+	"consts.h"
+
+1354571184 source:c:\users\ferdaousse\desktop\opgl\cdonneesgraphe.cpp
+	"consts.h"
+	"CDonneesGraphe.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1354571184 source:c:\users\ferdaousse\desktop\opgl\cgraphe.cpp
+	"CGraphe.h"
+	<iostream>
+	<string>
+
+1354571184 source:c:\users\ferdaousse\desktop\opgl\cpoint3f.cpp
+	"CPoint3f.h"
+	"consts.h"
+	<stdio.h>
+
+1354571184 source:c:\users\ferdaousse\desktop\opgl\cpointannexe.cpp
+	"CPointAnnexe.h"
+	<stdio.h>
+
+1354571184 source:c:\users\ferdaousse\desktop\opgl\csegment.cpp
+	"CSegment.h"
+
+1354571184 source:c:\users\ferdaousse\desktop\opgl\csommet.cpp
+	"CSommet.h"
+	"consts.h"
+	<stdio.h>
+	<algorithm>
+

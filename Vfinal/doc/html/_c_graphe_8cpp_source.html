@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GeomatiqueGL:  Fichier source de D:/data/Enseignement/eclipse_ws/Geom2/src/CGraphe.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Généré par Doxygen 1.6.2 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Liste&nbsp;des&nbsp;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&nbsp;de&nbsp;fichier</span></a></li>
+    </ul>
+  </div>
+<h1>D:/data/Enseignement/eclipse_ws/Geom2/src/CGraphe.cpp</h1><a href="_c_graphe_8cpp.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> * CGraphe.cpp</span>
+<a name="l00003"></a>00003 <span class="comment"> *</span>
+<a name="l00004"></a>00004 <span class="comment"> *  Created on: 22 d�c. 2009</span>
+<a name="l00005"></a>00005 <span class="comment"> *      Author: girouxi</span>
+<a name="l00006"></a>00006 <span class="comment"> */</span>
+<a name="l00007"></a>00007 <span class="keyword">using namespace </span>std;
+<a name="l00008"></a>00008 <span class="preprocessor">#include &quot;<a class="code" href="_c_graphe_8h.html">CGraphe.h</a>&quot;</span>
+<a name="l00009"></a>00009 <span class="preprocessor">#include &lt;string&gt;</span>
+<a name="l00010"></a><a class="code" href="class_c_graphe.html#a7b7846b6addc65ebeab0f4e93f7ea45f">00010</a> <a class="code" href="class_c_graphe.html#a7b7846b6addc65ebeab0f4e93f7ea45f">CGraphe::CGraphe</a>(<a class="code" href="class_c_donnees_graphe.html">CDonneesGraphe</a> gdata)
+<a name="l00011"></a>00011 {
+<a name="l00012"></a>00012         <a class="code" href="class_c_graphe.html#ab398ef0430ed53212b9285072d016cbd">buildGrapheObjectsFromData</a>(gdata);
+<a name="l00013"></a>00013 }
+<a name="l00014"></a><a class="code" href="class_c_graphe.html#ab398ef0430ed53212b9285072d016cbd">00014</a> <span class="keywordtype">void</span> <a class="code" href="class_c_graphe.html#ab398ef0430ed53212b9285072d016cbd">CGraphe::buildGrapheObjectsFromData</a>(<a class="code" href="class_c_donnees_graphe.html">CDonneesGraphe</a> gdata){
+<a name="l00015"></a>00015         <a class="code" href="class_c_graphe.html#a81b2b3b6f889eb29db4fd9d978046e70">buildArcsFromData</a>(gdata);
+<a name="l00016"></a>00016         <a class="code" href="class_c_graphe.html#a1b67a556f00fe3c6bfa482b062bc9f8a">buildPointsAnnexesFromData</a>(gdata);
+<a name="l00017"></a>00017 }
+<a name="l00018"></a>00018 
+<a name="l00019"></a><a class="code" href="class_c_graphe.html#a81b2b3b6f889eb29db4fd9d978046e70">00019</a> <span class="keywordtype">void</span> <a class="code" href="class_c_graphe.html#a81b2b3b6f889eb29db4fd9d978046e70">CGraphe::buildArcsFromData</a>(<a class="code" href="class_c_donnees_graphe.html">CDonneesGraphe</a> gdata){
+<a name="l00020"></a>00020         <span class="comment">// association sommet-arc</span>
+<a name="l00021"></a>00021         <span class="comment">// definition des sommets initial et final d&#39;un arc</span>
+<a name="l00022"></a>00022         <span class="comment">// definition d&#39;arc entrants ou sortant d&#39;un sommet</span>
+<a name="l00023"></a>00023 
+<a name="l00024"></a>00024         <a class="code" href="class_c_graphe.html#a26983bb3f361b4715cdab84a55d495f4">list_sommet</a>.resize(gdata.<a class="code" href="class_c_donnees_graphe.html#ab9385f7393c51962201ef30f1f06733c">NS</a>);
+<a name="l00025"></a>00025         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> iarc = 0; iarc &lt; gdata.<a class="code" href="class_c_donnees_graphe.html#a23065368e181ef2891938fa49575a0b8">NA</a>; ++iarc) {
+<a name="l00026"></a>00026                 <a class="code" href="class_c_data2i.html">CData2i</a> ligne_sif = gdata.<a class="code" href="class_c_donnees_graphe.html#ac4e88e9a74a06eefa2bfcc8b91e09cce">SIF</a>.at(iarc);
+<a name="l00027"></a>00027                 <span class="comment">// pour nous la numerotation commence a partir de 0</span>
+<a name="l00028"></a>00028                 <span class="comment">// et non a partir de 1</span>
+<a name="l00029"></a>00029                 <span class="keywordtype">int</span> sini = ligne_sif.<a class="code" href="class_c_data2i.html#abc4221a50b8ffa8610efffabd13419d5">colonne_1</a>-1; <span class="comment">// num sommet ini</span>
+<a name="l00030"></a>00030                 <span class="keywordtype">int</span> sfin = ligne_sif.<a class="code" href="class_c_data2i.html#a51eb6dfd6beb82450e63e0330514893d">colonne_2</a>-1; <span class="comment">// num sommet fin</span>
+<a name="l00031"></a>00031                 <span class="comment">// Creation de l&#39;objet arc,</span>
+<a name="l00032"></a>00032                 <a class="code" href="class_c_arc.html">CArc</a> arc_new(iarc, sini, sfin);
+<a name="l00033"></a>00033 
+<a name="l00034"></a>00034                 <span class="comment">// Creation Creation de l&#39;objet sommet initial,</span>
+<a name="l00035"></a>00035                 <a class="code" href="class_c_point3f.html">CPoint3f</a> coord_sini = gdata.<a class="code" href="class_c_donnees_graphe.html#a29213f678aaefd5ceb135a9f6a53ea72">SXYZ</a>.at(sini); <span class="comment">// coordonnees sommet ini</span>
+<a name="l00036"></a>00036                 <a class="code" href="class_c_sommet.html">CSommet</a> sommet_ini(sini,coord_sini);
+<a name="l00037"></a>00037 
+<a name="l00038"></a>00038                 <span class="comment">// Creation Creation de l&#39;objet sommet final,</span>
+<a name="l00039"></a>00039                 <a class="code" href="class_c_point3f.html">CPoint3f</a> coord_sfin = gdata.<a class="code" href="class_c_donnees_graphe.html#a29213f678aaefd5ceb135a9f6a53ea72">SXYZ</a>.at(sfin); <span class="comment">// coordonnees sommet fin</span>
+<a name="l00040"></a>00040                 <a class="code" href="class_c_sommet.html">CSommet</a> sommet_fin(sfin, coord_sfin);
+<a name="l00041"></a>00041 
+<a name="l00042"></a>00042                 <span class="comment">// Lorsqu&#39;un sommet est le sommet initial d&#39;un arc,</span>
+<a name="l00043"></a>00043                 <span class="comment">// c&#39;est que l&#39;arc sort du sommet (logic non?!)</span>
+<a name="l00044"></a>00044                 sommet_ini.<a class="code" href="class_c_sommet.html#ad851d39144f51e2a02f73adbabfa768a">id_arc_sortant</a>.push_back(iarc);
+<a name="l00045"></a>00045 
+<a name="l00046"></a>00046                 <span class="comment">// Inversement lorsqu&#39;un sommet est le sommet final d&#39;un arc,</span>
+<a name="l00047"></a>00047                 <span class="comment">// c&#39;est que l&#39;arc rentre dans le sommet</span>
+<a name="l00048"></a>00048                 sommet_fin.<a class="code" href="class_c_sommet.html#a78f2306e25e3a36dca3b31a34aaa74bc">id_arc_entrant</a>.push_back(iarc);
+<a name="l00049"></a>00049 
+<a name="l00050"></a>00050                 <span class="comment">// On garnit notre graphe</span>
+<a name="l00051"></a>00051                 <a class="code" href="class_c_graphe.html#a26983bb3f361b4715cdab84a55d495f4">list_sommet</a>[sini] = sommet_ini;
+<a name="l00052"></a>00052                 <a class="code" href="class_c_graphe.html#a26983bb3f361b4715cdab84a55d495f4">list_sommet</a>[sfin] = sommet_fin;
+<a name="l00053"></a>00053                 <a class="code" href="class_c_graphe.html#a0f1418dba0519bb61633823ff9c548c4">list_arc</a>.push_back(arc_new);
+<a name="l00054"></a>00054         }
+<a name="l00055"></a>00055 }
+<a name="l00056"></a>00056 
+<a name="l00057"></a><a class="code" href="class_c_graphe.html#a1b67a556f00fe3c6bfa482b062bc9f8a">00057</a> <span class="keywordtype">void</span> <a class="code" href="class_c_graphe.html#a1b67a556f00fe3c6bfa482b062bc9f8a">CGraphe::buildPointsAnnexesFromData</a>(<a class="code" href="class_c_donnees_graphe.html">CDonneesGraphe</a> gdata){
+<a name="l00058"></a>00058         <a class="code" href="class_c_graphe.html#a6c8268b36366c9b74f90aa49e5bed1b2">list_point_annex</a>.resize(gdata.<a class="code" href="class_c_donnees_graphe.html#a4c2c531d254ff7b5eef757226a1f7b7f">NPA</a>);
+<a name="l00059"></a>00059         <span class="keywordtype">int</span> index_pa = -1;
+<a name="l00060"></a>00060         <span class="keywordtype">int</span> ipa;
+<a name="l00061"></a>00061         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> iarc = 0; iarc &lt; gdata.<a class="code" href="class_c_donnees_graphe.html#a23065368e181ef2891938fa49575a0b8">NA</a>; ++iarc) {
+<a name="l00062"></a>00062                 <a class="code" href="class_c_data2i.html">CData2i</a> data_pannex = gdata.<a class="code" href="class_c_donnees_graphe.html#a9ac6d02e903e1759524b5fbae1381001">PAXYZ</a>.at(iarc);
+<a name="l00063"></a>00063                 <span class="keywordtype">int</span> nb_pannex = data_pannex.<a class="code" href="class_c_data2i.html#a51eb6dfd6beb82450e63e0330514893d">colonne_2</a>;
+<a name="l00064"></a>00064                 <span class="keywordflow">for</span> (ipa = 0; ipa &lt; nb_pannex; ++ipa) {
+<a name="l00065"></a>00065                         index_pa++;
+<a name="l00066"></a>00066                         <a class="code" href="class_c_point3f.html">CPoint3f</a> coord_point_annex = gdata.<a class="code" href="class_c_donnees_graphe.html#a0e1c96eb70305ae8361492bab6580d16">AXYZ</a>.at(index_pa);
+<a name="l00067"></a>00067                         <a class="code" href="class_c_point_annexe.html">CPointAnnexe</a> pannex(index_pa, coord_point_annex);
+<a name="l00068"></a>00068                         <a class="code" href="class_c_graphe.html#a0f1418dba0519bb61633823ff9c548c4">list_arc</a>.at(iarc).list_point_annexe.push_back(index_pa);
+<a name="l00069"></a>00069                         <a class="code" href="class_c_graphe.html#a6c8268b36366c9b74f90aa49e5bed1b2">list_point_annex</a>[index_pa] = pannex;
+<a name="l00070"></a>00070                 }
+<a name="l00071"></a>00071         }
+<a name="l00072"></a>00072 }
+<a name="l00073"></a>00073 
+<a name="l00077"></a><a class="code" href="class_c_graphe.html#afd9af6dd732679cf86132ff553db6ded">00077</a> vector&lt;CArc&gt; <a class="code" href="class_c_graphe.html#afd9af6dd732679cf86132ff553db6ded">CGraphe::getListArcEntrantDansSommet</a>(<span class="keyword">const</span> <a class="code" href="class_c_sommet.html">CSommet</a> &amp;sommet)
+<a name="l00078"></a>00078 {
+<a name="l00079"></a>00079         vector&lt;CArc&gt; list_arc_entrant;
+<a name="l00080"></a>00080         <span class="keywordtype">int</span> nb_arc_entrant = sommet.<a class="code" href="class_c_sommet.html#a78f2306e25e3a36dca3b31a34aaa74bc">id_arc_entrant</a>.size();
+<a name="l00081"></a>00081         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; nb_arc_entrant; ++i) {
+<a name="l00082"></a>00082                 <span class="keywordtype">int</span> id_arc = sommet.<a class="code" href="class_c_sommet.html#a78f2306e25e3a36dca3b31a34aaa74bc">id_arc_entrant</a>.at(i);
+<a name="l00083"></a>00083                 list_arc_entrant.push_back(<a class="code" href="class_c_graphe.html#a0f1418dba0519bb61633823ff9c548c4">list_arc</a>.at(id_arc));
+<a name="l00084"></a>00084         }
+<a name="l00085"></a>00085         <span class="keywordflow">return</span> list_arc_entrant;
+<a name="l00086"></a>00086 }
+<a name="l00087"></a>00087 
+<a name="l00091"></a><a class="code" href="class_c_graphe.html#afb29b1f6982ffb11098901dc0c75721f">00091</a> vector&lt;CArc&gt; <a class="code" href="class_c_graphe.html#afb29b1f6982ffb11098901dc0c75721f">CGraphe::getListArcSortantDuSommet</a>(<span class="keyword">const</span> <a class="code" href="class_c_sommet.html">CSommet</a> &amp;sommet)
+<a name="l00092"></a>00092 {
+<a name="l00093"></a>00093         vector&lt;CArc&gt; list_arc_sortant;
+<a name="l00094"></a>00094         <span class="keywordtype">int</span> nb_arc_entrant = sommet.<a class="code" href="class_c_sommet.html#ad851d39144f51e2a02f73adbabfa768a">id_arc_sortant</a>.size();
+<a name="l00095"></a>00095         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; nb_arc_entrant; ++i) {
+<a name="l00096"></a>00096                 <span class="keywordtype">int</span> id_arc = sommet.<a class="code" href="class_c_sommet.html#ad851d39144f51e2a02f73adbabfa768a">id_arc_sortant</a>.at(i);
+<a name="l00097"></a>00097                 list_arc_sortant.push_back(<a class="code" href="class_c_graphe.html#a0f1418dba0519bb61633823ff9c548c4">list_arc</a>.at(id_arc));
+<a name="l00098"></a>00098         }
+<a name="l00099"></a>00099         <span class="keywordflow">return</span> list_arc_sortant;
+<a name="l00100"></a>00100 }
+<a name="l00101"></a>00101 
+<a name="l00105"></a><a class="code" href="class_c_graphe.html#a80a85ea189019dbe1d40a2b3b6c26312">00105</a> vector&lt;CPointAnnexe&gt; <a class="code" href="class_c_graphe.html#a80a85ea189019dbe1d40a2b3b6c26312">CGraphe::getListPointAnnexeArc</a>(<span class="keyword">const</span> <a class="code" href="class_c_arc.html">CArc</a> &amp;arc){
+<a name="l00106"></a>00106         vector&lt;CPointAnnexe&gt; list_pannexe;
+<a name="l00107"></a>00107         <span class="keywordtype">int</span> nb_pannexe = arc.<a class="code" href="class_c_arc.html#a41afa59b0a8cfc4ffcd00ac9a73a7761">list_point_annexe</a>.size();
+<a name="l00108"></a>00108         <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; nb_pannexe; ++i) {
+<a name="l00109"></a>00109                 <span class="keywordtype">int</span> id_arc = arc.<a class="code" href="class_c_arc.html#a41afa59b0a8cfc4ffcd00ac9a73a7761">list_point_annexe</a>.at(i);
+<a name="l00110"></a>00110                 list_pannexe.push_back(<a class="code" href="class_c_graphe.html#a6c8268b36366c9b74f90aa49e5bed1b2">list_point_annex</a>.at(id_arc));
+<a name="l00111"></a>00111         }
+<a name="l00112"></a>00112         <span class="keywordflow">return</span> list_pannexe;
+<a name="l00113"></a>00113 }
+<a name="l00114"></a>00114 
+</pre></div></div>
+<hr size="1"/><address style="text-align: right;"><small>Généré par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.2 </small></address>
+</body>
+</html>

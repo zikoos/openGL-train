@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GeomatiqueGL: Référence de la classe CGraphe</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Généré par Doxygen 1.6.2 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Page&nbsp;principale</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Liste&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="hierarchy.html"><span>Hiérarchie&nbsp;des&nbsp;classes</span></a></li>
+      <li><a href="functions.html"><span>Membres&nbsp;de&nbsp;classe</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>Référence de la classe CGraphe</h1><!-- doxytag: class="CGraphe" -->
+<p><code>#include &lt;<a class="el" href="_c_graphe_8h_source.html">CGraphe.h</a>&gt;</code></p>
+
+<p><a href="class_c_graphe-members.html">Liste de tous les membres</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Fonctions membres publiques</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#a7b7846b6addc65ebeab0f4e93f7ea45f">CGraphe</a> (<a class="el" href="class_c_donnees_graphe.html">CDonneesGraphe</a> gdata)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#ab398ef0430ed53212b9285072d016cbd">buildGrapheObjectsFromData</a> (<a class="el" href="class_c_donnees_graphe.html">CDonneesGraphe</a> gdata)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#a81b2b3b6f889eb29db4fd9d978046e70">buildArcsFromData</a> (<a class="el" href="class_c_donnees_graphe.html">CDonneesGraphe</a> gdata)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#a1b67a556f00fe3c6bfa482b062bc9f8a">buildPointsAnnexesFromData</a> (<a class="el" href="class_c_donnees_graphe.html">CDonneesGraphe</a> gdata)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_c_arc.html">CArc</a> &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#afd9af6dd732679cf86132ff553db6ded">getListArcEntrantDansSommet</a> (const <a class="el" href="class_c_sommet.html">CSommet</a> &amp;sommet)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_c_arc.html">CArc</a> &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#afb29b1f6982ffb11098901dc0c75721f">getListArcSortantDuSommet</a> (const <a class="el" href="class_c_sommet.html">CSommet</a> &amp;sommet)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_c_point_annexe.html">CPointAnnexe</a> &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#a80a85ea189019dbe1d40a2b3b6c26312">getListPointAnnexeArc</a> (const <a class="el" href="class_c_arc.html">CArc</a> &amp;arc)</td></tr>
+<tr><td colspan="2"><h2>Attributs publics</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_c_sommet.html">CSommet</a> &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#a26983bb3f361b4715cdab84a55d495f4">list_sommet</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#ab7c9486ec7df58d87ed2d9a75ea8571e">nb_sommet</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_c_arc.html">CArc</a> &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#a0f1418dba0519bb61633823ff9c548c4">list_arc</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#a14c683adf0e50eab4c780fe8f4241195">nb_arc</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_c_point_annexe.html">CPointAnnexe</a> &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#a6c8268b36366c9b74f90aa49e5bed1b2">list_point_annex</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_graphe.html#aec84fcfff6f3b970336c52321cbb1940">nb_point_annex</a></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Description détaillée</h2>
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8h_source.html#l00017">17</a> du fichier <a class="el" href="_c_graphe_8h_source.html">CGraphe.h</a>.</p>
+<hr/><h2>Documentation des constructeurs et destructeur</h2>
+<a class="anchor" id="a7b7846b6addc65ebeab0f4e93f7ea45f"></a><!-- doxytag: member="CGraphe::CGraphe" ref="a7b7846b6addc65ebeab0f4e93f7ea45f" args="(CDonneesGraphe gdata)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CGraphe::CGraphe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_donnees_graphe.html">CDonneesGraphe</a>&nbsp;</td>
+          <td class="paramname"> <em>gdata</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8cpp_source.html#l00010">10</a> du fichier <a class="el" href="_c_graphe_8cpp_source.html">CGraphe.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dynsection">
+<div class="center"><img src="class_c_graphe_a7b7846b6addc65ebeab0f4e93f7ea45f_cgraph.png" border="0" usemap="#class_c_graphe_a7b7846b6addc65ebeab0f4e93f7ea45f_cgraph_map" alt=""></div>
+<map name="class_c_graphe_a7b7846b6addc65ebeab0f4e93f7ea45f_cgraph_map" id="class_c_graphe_a7b7846b6addc65ebeab0f4e93f7ea45f_cgraph">
+<area shape="rect" id="node3" href="class_c_graphe.html#ab398ef0430ed53212b9285072d016cbd" title="CGraphe::buildGrapheObjectsFromData" alt="" coords="188,32,439,61"/><area shape="rect" id="node5" href="class_c_graphe.html#a81b2b3b6f889eb29db4fd9d978046e70" title="CGraphe::buildArcsFromData" alt="" coords="519,5,711,35"/><area shape="rect" id="node7" href="class_c_graphe.html#a1b67a556f00fe3c6bfa482b062bc9f8a" title="CGraphe::buildPointsAnnexesFromData" alt="" coords="488,59,741,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/><h2>Documentation des fonctions membres</h2>
+<a class="anchor" id="a81b2b3b6f889eb29db4fd9d978046e70"></a><!-- doxytag: member="CGraphe::buildArcsFromData" ref="a81b2b3b6f889eb29db4fd9d978046e70" args="(CDonneesGraphe gdata)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CGraphe::buildArcsFromData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_donnees_graphe.html">CDonneesGraphe</a>&nbsp;</td>
+          <td class="paramname"> <em>gdata</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8cpp_source.html#l00019">19</a> du fichier <a class="el" href="_c_graphe_8cpp_source.html">CGraphe.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dynsection">
+<div class="center"><img src="class_c_graphe_a81b2b3b6f889eb29db4fd9d978046e70_icgraph.png" border="0" usemap="#class_c_graphe_a81b2b3b6f889eb29db4fd9d978046e70_icgraph_map" alt=""></div>
+<map name="class_c_graphe_a81b2b3b6f889eb29db4fd9d978046e70_icgraph_map" id="class_c_graphe_a81b2b3b6f889eb29db4fd9d978046e70_icgraph">
+<area shape="rect" id="node3" href="class_c_graphe.html#ab398ef0430ed53212b9285072d016cbd" title="CGraphe::buildGrapheObjectsFromData" alt="" coords="247,5,497,35"/><area shape="rect" id="node5" href="class_c_graphe.html#a7b7846b6addc65ebeab0f4e93f7ea45f" title="CGraphe::CGraphe" alt="" coords="548,5,679,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab398ef0430ed53212b9285072d016cbd"></a><!-- doxytag: member="CGraphe::buildGrapheObjectsFromData" ref="ab398ef0430ed53212b9285072d016cbd" args="(CDonneesGraphe gdata)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CGraphe::buildGrapheObjectsFromData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_donnees_graphe.html">CDonneesGraphe</a>&nbsp;</td>
+          <td class="paramname"> <em>gdata</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8cpp_source.html#l00014">14</a> du fichier <a class="el" href="_c_graphe_8cpp_source.html">CGraphe.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dynsection">
+<div class="center"><img src="class_c_graphe_ab398ef0430ed53212b9285072d016cbd_cgraph.png" border="0" usemap="#class_c_graphe_ab398ef0430ed53212b9285072d016cbd_cgraph_map" alt=""></div>
+<map name="class_c_graphe_ab398ef0430ed53212b9285072d016cbd_cgraph_map" id="class_c_graphe_ab398ef0430ed53212b9285072d016cbd_cgraph">
+<area shape="rect" id="node3" href="class_c_graphe.html#a81b2b3b6f889eb29db4fd9d978046e70" title="CGraphe::buildArcsFromData" alt="" coords="337,5,529,35"/><area shape="rect" id="node5" href="class_c_graphe.html#a1b67a556f00fe3c6bfa482b062bc9f8a" title="CGraphe::buildPointsAnnexesFromData" alt="" coords="307,59,560,88"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dynsection">
+<div class="center"><img src="class_c_graphe_ab398ef0430ed53212b9285072d016cbd_icgraph.png" border="0" usemap="#class_c_graphe_ab398ef0430ed53212b9285072d016cbd_icgraph_map" alt=""></div>
+<map name="class_c_graphe_ab398ef0430ed53212b9285072d016cbd_icgraph_map" id="class_c_graphe_ab398ef0430ed53212b9285072d016cbd_icgraph">
+<area shape="rect" id="node3" href="class_c_graphe.html#a7b7846b6addc65ebeab0f4e93f7ea45f" title="CGraphe::CGraphe" alt="" coords="308,5,439,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1b67a556f00fe3c6bfa482b062bc9f8a"></a><!-- doxytag: member="CGraphe::buildPointsAnnexesFromData" ref="a1b67a556f00fe3c6bfa482b062bc9f8a" args="(CDonneesGraphe gdata)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CGraphe::buildPointsAnnexesFromData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_donnees_graphe.html">CDonneesGraphe</a>&nbsp;</td>
+          <td class="paramname"> <em>gdata</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8cpp_source.html#l00057">57</a> du fichier <a class="el" href="_c_graphe_8cpp_source.html">CGraphe.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dynsection">
+<div class="center"><img src="class_c_graphe_a1b67a556f00fe3c6bfa482b062bc9f8a_icgraph.png" border="0" usemap="#class_c_graphe_a1b67a556f00fe3c6bfa482b062bc9f8a_icgraph_map" alt=""></div>
+<map name="class_c_graphe_a1b67a556f00fe3c6bfa482b062bc9f8a_icgraph_map" id="class_c_graphe_a1b67a556f00fe3c6bfa482b062bc9f8a_icgraph">
+<area shape="rect" id="node3" href="class_c_graphe.html#ab398ef0430ed53212b9285072d016cbd" title="CGraphe::buildGrapheObjectsFromData" alt="" coords="308,5,559,35"/><area shape="rect" id="node5" href="class_c_graphe.html#a7b7846b6addc65ebeab0f4e93f7ea45f" title="CGraphe::CGraphe" alt="" coords="609,5,740,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="afd9af6dd732679cf86132ff553db6ded"></a><!-- doxytag: member="CGraphe::getListArcEntrantDansSommet" ref="afd9af6dd732679cf86132ff553db6ded" args="(const CSommet &amp;sommet)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; <a class="el" href="class_c_arc.html">CArc</a> &gt; CGraphe::getListArcEntrantDansSommet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_sommet.html">CSommet</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>sommet</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>donne la liste des arcs entrants </p>
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8cpp_source.html#l00077">77</a> du fichier <a class="el" href="_c_graphe_8cpp_source.html">CGraphe.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dynsection">
+<div class="center"><img src="class_c_graphe_afd9af6dd732679cf86132ff553db6ded_icgraph.png" border="0" usemap="#class_c_graphe_afd9af6dd732679cf86132ff553db6ded_icgraph_map" alt=""></div>
+<map name="class_c_graphe_afd9af6dd732679cf86132ff553db6ded_icgraph_map" id="class_c_graphe_afd9af6dd732679cf86132ff553db6ded_icgraph">
+<area shape="rect" id="node3" href="_geom2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="315,5,365,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="afb29b1f6982ffb11098901dc0c75721f"></a><!-- doxytag: member="CGraphe::getListArcSortantDuSommet" ref="afb29b1f6982ffb11098901dc0c75721f" args="(const CSommet &amp;sommet)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; <a class="el" href="class_c_arc.html">CArc</a> &gt; CGraphe::getListArcSortantDuSommet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_sommet.html">CSommet</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>sommet</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>donne la liste des arcs qui sortent de s </p>
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8cpp_source.html#l00091">91</a> du fichier <a class="el" href="_c_graphe_8cpp_source.html">CGraphe.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a80a85ea189019dbe1d40a2b3b6c26312"></a><!-- doxytag: member="CGraphe::getListPointAnnexeArc" ref="a80a85ea189019dbe1d40a2b3b6c26312" args="(const CArc &amp;arc)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; <a class="el" href="class_c_point_annexe.html">CPointAnnexe</a> &gt; CGraphe::getListPointAnnexeArc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_arc.html">CArc</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>arc</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Donne la liste des points annexes de l'arc pass� en param�tre </p>
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8cpp_source.html#l00105">105</a> du fichier <a class="el" href="_c_graphe_8cpp_source.html">CGraphe.cpp</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Documentation des données membres</h2>
+<a class="anchor" id="a0f1418dba0519bb61633823ff9c548c4"></a><!-- doxytag: member="CGraphe::list_arc" ref="a0f1418dba0519bb61633823ff9c548c4" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_c_arc.html">CArc</a>&gt; <a class="el" href="class_c_graphe.html#a0f1418dba0519bb61633823ff9c548c4">CGraphe::list_arc</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8h_source.html#l00028">28</a> du fichier <a class="el" href="_c_graphe_8h_source.html">CGraphe.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c8268b36366c9b74f90aa49e5bed1b2"></a><!-- doxytag: member="CGraphe::list_point_annex" ref="a6c8268b36366c9b74f90aa49e5bed1b2" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_c_point_annexe.html">CPointAnnexe</a>&gt; <a class="el" href="class_c_graphe.html#a6c8268b36366c9b74f90aa49e5bed1b2">CGraphe::list_point_annex</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8h_source.html#l00030">30</a> du fichier <a class="el" href="_c_graphe_8h_source.html">CGraphe.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a26983bb3f361b4715cdab84a55d495f4"></a><!-- doxytag: member="CGraphe::list_sommet" ref="a26983bb3f361b4715cdab84a55d495f4" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_c_sommet.html">CSommet</a>&gt; <a class="el" href="class_c_graphe.html#a26983bb3f361b4715cdab84a55d495f4">CGraphe::list_sommet</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8h_source.html#l00026">26</a> du fichier <a class="el" href="_c_graphe_8h_source.html">CGraphe.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a14c683adf0e50eab4c780fe8f4241195"></a><!-- doxytag: member="CGraphe::nb_arc" ref="a14c683adf0e50eab4c780fe8f4241195" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="class_c_graphe.html#a14c683adf0e50eab4c780fe8f4241195">CGraphe::nb_arc</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8h_source.html#l00029">29</a> du fichier <a class="el" href="_c_graphe_8h_source.html">CGraphe.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec84fcfff6f3b970336c52321cbb1940"></a><!-- doxytag: member="CGraphe::nb_point_annex" ref="aec84fcfff6f3b970336c52321cbb1940" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="class_c_graphe.html#aec84fcfff6f3b970336c52321cbb1940">CGraphe::nb_point_annex</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8h_source.html#l00031">31</a> du fichier <a class="el" href="_c_graphe_8h_source.html">CGraphe.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab7c9486ec7df58d87ed2d9a75ea8571e"></a><!-- doxytag: member="CGraphe::nb_sommet" ref="ab7c9486ec7df58d87ed2d9a75ea8571e" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="class_c_graphe.html#ab7c9486ec7df58d87ed2d9a75ea8571e">CGraphe::nb_sommet</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_c_graphe_8h_source.html#l00027">27</a> du fichier <a class="el" href="_c_graphe_8h_source.html">CGraphe.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li>D:/data/Enseignement/eclipse_ws/Geom2/src/<a class="el" href="_c_graphe_8h_source.html">CGraphe.h</a></li>
+<li>D:/data/Enseignement/eclipse_ws/Geom2/src/<a class="el" href="_c_graphe_8cpp_source.html">CGraphe.cpp</a></li>
+</ul>
+</div>
+<hr size="1"/><address style="text-align: right;"><small>Généré par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.2 </small></address>
+</body>
+</html>

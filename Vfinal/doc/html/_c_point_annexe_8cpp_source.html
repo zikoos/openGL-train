@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GeomatiqueGL:  Fichier source de D:/data/Enseignement/eclipse_ws/Geom2/src/CPointAnnexe.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Généré par Doxygen 1.6.2 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Liste&nbsp;des&nbsp;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&nbsp;de&nbsp;fichier</span></a></li>
+    </ul>
+  </div>
+<h1>D:/data/Enseignement/eclipse_ws/Geom2/src/CPointAnnexe.cpp</h1><a href="_c_point_annexe_8cpp.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> * CPointAnnexe.cpp</span>
+<a name="l00003"></a>00003 <span class="comment"> *</span>
+<a name="l00004"></a>00004 <span class="comment"> *  Created on: 22 d�c. 2009</span>
+<a name="l00005"></a>00005 <span class="comment"> *      Author: girouxi</span>
+<a name="l00006"></a>00006 <span class="comment"> */</span>
+<a name="l00007"></a>00007 
+<a name="l00008"></a>00008 <span class="preprocessor">#include &quot;<a class="code" href="_c_point_annexe_8h.html">CPointAnnexe.h</a>&quot;</span>
+<a name="l00009"></a>00009 <span class="keyword">using namespace </span>std;
+<a name="l00010"></a><a class="code" href="class_c_point_annexe.html#a9aa9d02a0d8a89dd7cb0bbc7c9af0106">00010</a> <a class="code" href="class_c_point_annexe.html#a9aa9d02a0d8a89dd7cb0bbc7c9af0106">CPointAnnexe::CPointAnnexe</a>() {
+<a name="l00011"></a>00011 }
+<a name="l00012"></a><a class="code" href="class_c_point_annexe.html#a0e5ba888b8a74f904c3e543a325ba68f">00012</a> <a class="code" href="class_c_point_annexe.html#a9aa9d02a0d8a89dd7cb0bbc7c9af0106">CPointAnnexe::CPointAnnexe</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keyword">const</span> <a class="code" href="class_c_point3f.html">CPoint3f</a> &amp;p):<a class="code" href="class_c_point3f.html">CPoint3f</a>(p), id_point_annex(id) {
+<a name="l00013"></a>00013 }
+<a name="l00014"></a>00014 
+<a name="l00015"></a><a class="code" href="class_c_point_annexe.html#a044a1d7c1f93d11e9d4906918be8b958">00015</a> <a class="code" href="class_c_point_annexe.html#a044a1d7c1f93d11e9d4906918be8b958">CPointAnnexe::~CPointAnnexe</a>() {
+<a name="l00016"></a>00016         <span class="comment">// TODO Auto-generated destructor stub</span>
+<a name="l00017"></a>00017 }
+<a name="l00018"></a><a class="code" href="class_c_point_annexe.html#af3a68bad3e0e9d0d3c1880c4be7c1d34">00018</a> <span class="keywordtype">string</span> <a class="code" href="class_c_point_annexe.html#af3a68bad3e0e9d0d3c1880c4be7c1d34">CPointAnnexe::toString</a>(){
+<a name="l00019"></a>00019         <span class="keywordtype">char</span> data[1024] = <span class="stringliteral">&quot;&quot;</span>;
+<a name="l00020"></a>00020         sprintf(data,<span class="stringliteral">&quot;--point annexe identifiant : %d ---\n&quot;</span>
+<a name="l00021"></a>00021                         <span class="stringliteral">&quot;`-&gt;coord. : %f %f %f&quot;</span>,
+<a name="l00022"></a>00022                         <a class="code" href="class_c_point_annexe.html#af2f9e8ddf37a58a246e8ed2b0147f591">id_point_annex</a>, <a class="code" href="class_c_point3f.html#a7484e80e59a9fdd403c34b7c3acbe021">X</a>, <a class="code" href="class_c_point3f.html#a858525cac4d5f2eef685fb8c7e50b1ac">Y</a>, <a class="code" href="class_c_point3f.html#a50a3fd9434b65744623aad7b25b07e8b">Z</a>);
+<a name="l00023"></a>00023         <span class="keywordtype">string</span> str(data);
+<a name="l00024"></a>00024         <span class="keywordflow">return</span> str;
+<a name="l00025"></a>00025 }
+</pre></div></div>
+<hr size="1"/><address style="text-align: right;"><small>Généré par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.2 </small></address>
+</body>
+</html>

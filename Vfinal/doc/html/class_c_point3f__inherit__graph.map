@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_c_point_annexe.html" title="{CPointAnnexe\n|+ id_point_annex\l|+ CPointAnnexe()\l+ CPointAnnexe()\l+ toString()\l+ ~CPointAnnexe()\l}" alt="" coords="5,253,139,390"/>
+<area shape="rect" id="node5" href="$class_c_sommet.html" title="{CSommet\n|+ id_sommet\l+ id_arc_entrant\l+ id_arc_sortant\l|+ CSommet()\l+ CSommet()\l+ CSommet()\l+ CSommet()\l+ toString()\l}" alt="" coords="163,227,277,416"/>
+</map>

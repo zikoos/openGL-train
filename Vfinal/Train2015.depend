@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1431718434 source:z:\ensg\opengel\ing13\projet2015\opgl\carc.cpp
+	"CArc.h"
+	<string>
+	<stdio.h>
+
+1431590561 z:\ensg\opengel\ing13\projet2015\opgl\carc.h
+	<vector>
+	<string>
+
+1431718457 source:z:\ensg\opengel\ing13\projet2015\opgl\cdata2i.cpp
+	"CData2i.h"
+	"consts.h"
+
+1431590570 z:\ensg\opengel\ing13\projet2015\opgl\cdata2i.h
+
+1431599189 z:\ensg\opengel\ing13\projet2015\opgl\consts.h
+
+1431590633 source:z:\ensg\opengel\ing13\projet2015\opgl\cdonneesgraphe.cpp
+	"consts.h"
+	"CDonneesGraphe.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1431590580 z:\ensg\opengel\ing13\projet2015\opgl\cdonneesgraphe.h
+	<vector>
+	<string.h>
+	"CData2i.h"
+	"CPoint3f.h"
+
+1354571184 z:\ensg\opengel\ing13\projet2015\opgl\cpoint3f.h
+	<string>
+
+1431590652 source:z:\ensg\opengel\ing13\projet2015\opgl\cgraphe.cpp
+	"CGraphe.h"
+	<iostream>
+	<string>
+
+1431590586 z:\ensg\opengel\ing13\projet2015\opgl\cgraphe.h
+	<vector>
+	<string>
+	"CSegment.h"
+	"CArc.h"
+	"CSommet.h"
+	"CPointAnnexe.h"
+	"CDonneesGraphe.h"
+	"consts.h"
+
+1431590606 z:\ensg\opengel\ing13\projet2015\opgl\csegment.h
+
+1354571184 z:\ensg\opengel\ing13\projet2015\opgl\csommet.h
+	<vector>
+	<string>
+	"CPoint3f.h"
+
+1431590597 z:\ensg\opengel\ing13\projet2015\opgl\cpointannexe.h
+	"CPoint3f.h"
+
+1431590659 source:z:\ensg\opengel\ing13\projet2015\opgl\cpoint3f.cpp
+	"CPoint3f.h"
+	"consts.h"
+	<stdio.h>
+
+1431590665 source:z:\ensg\opengel\ing13\projet2015\opgl\cpointannexe.cpp
+	"CPointAnnexe.h"
+	<stdio.h>
+
+1431590671 source:z:\ensg\opengel\ing13\projet2015\opgl\csegment.cpp
+	"CSegment.h"
+
+1354571184 source:z:\ensg\opengel\ing13\projet2015\opgl\csommet.cpp
+	"CSommet.h"
+	"consts.h"
+	<stdio.h>
+	<algorithm>
+
+1431721439 source:z:\ensg\opengel\ing13\projet2015\opgl\main.cpp
+	<GLUT/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<math.h>
+	<vector>
+	<cstring>
+	<cstdlib>
+	"CDonneesGraphe.h"
+	"CGraphe.h"
+	"CSommet.h"
+	"CPoint3f.h"
+	"CArc.h"
+	"CData2i.h"
+	"CPointAnnexe.h"
+	"CSegment.h"
+	"train.h"
+	"wagon.h"
+
+1401305268 z:\ensg\opengel\ing13\projet2015\opgl\train.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1334246326 z:\ensg\opengel\ing13\projet2015\opgl\wagon.h
+	"CPoint3f.h"
+	"CArc.h"
+	"CPointAnnexe.h"
+
+1300977082 source:z:\ensg\opengel\ing13\projet2015\opgl\train.cpp
+	"train.h"
+
+1333302734 source:z:\ensg\opengel\ing13\projet2015\opgl\wagon.cpp
+	"wagon.h"
+

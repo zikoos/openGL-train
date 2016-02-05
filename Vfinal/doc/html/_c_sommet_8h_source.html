@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GeomatiqueGL:  Fichier source de D:/data/Enseignement/eclipse_ws/Geom2/src/CSommet.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Généré par Doxygen 1.6.2 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Liste&nbsp;des&nbsp;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&nbsp;de&nbsp;fichier</span></a></li>
+    </ul>
+  </div>
+<h1>D:/data/Enseignement/eclipse_ws/Geom2/src/CSommet.h</h1><a href="_c_sommet_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#ifndef CSOMMET_H_INCLUDED</span>
+<a name="l00002"></a>00002 <span class="preprocessor"></span><span class="preprocessor">#define CSOMMET_H_INCLUDED</span>
+<a name="l00003"></a>00003 <span class="preprocessor"></span><span class="preprocessor">#include &lt;vector&gt;</span>
+<a name="l00004"></a>00004 <span class="preprocessor">#include &lt;string&gt;</span>
+<a name="l00005"></a>00005 <span class="preprocessor">#include &quot;<a class="code" href="_c_point3f_8h.html">CPoint3f.h</a>&quot;</span>
+<a name="l00006"></a><a class="code" href="class_c_sommet.html">00006</a> <span class="keyword">class </span><a class="code" href="class_c_sommet.html">CSommet</a>:<span class="keyword">public</span> <a class="code" href="class_c_point3f.html">CPoint3f</a>
+<a name="l00007"></a>00007 {
+<a name="l00008"></a>00008         <span class="keyword">public</span>:
+<a name="l00009"></a><a class="code" href="class_c_sommet.html#a5d98b6239a80e83867f739dfe3e74ee3">00009</a>                 <span class="keywordtype">int</span> <a class="code" href="class_c_sommet.html#a5d98b6239a80e83867f739dfe3e74ee3">id_sommet</a>;
+<a name="l00010"></a><a class="code" href="class_c_sommet.html#a78f2306e25e3a36dca3b31a34aaa74bc">00010</a>                 std::vector&lt;int&gt; <a class="code" href="class_c_sommet.html#a78f2306e25e3a36dca3b31a34aaa74bc">id_arc_entrant</a>;
+<a name="l00011"></a><a class="code" href="class_c_sommet.html#ad851d39144f51e2a02f73adbabfa768a">00011</a>                 std::vector&lt;int&gt; <a class="code" href="class_c_sommet.html#ad851d39144f51e2a02f73adbabfa768a">id_arc_sortant</a>;
+<a name="l00012"></a>00012                 <a class="code" href="class_c_sommet.html#aaea2b72c5b90563e6d16d694dcd6a59a">CSommet</a>();
+<a name="l00013"></a>00013                 <a class="code" href="class_c_sommet.html#aaea2b72c5b90563e6d16d694dcd6a59a">CSommet</a>(<span class="keywordtype">int</span>);
+<a name="l00014"></a>00014                 <a class="code" href="class_c_sommet.html#aaea2b72c5b90563e6d16d694dcd6a59a">CSommet</a>(<span class="keywordtype">int</span>, <a class="code" href="class_c_point3f.html">CPoint3f</a>);
+<a name="l00015"></a>00015                 <a class="code" href="class_c_sommet.html#aaea2b72c5b90563e6d16d694dcd6a59a">CSommet</a>(<span class="keywordtype">float</span>, <span class="keywordtype">float</span>, <span class="keywordtype">float</span>);
+<a name="l00016"></a>00016                 std::string <a class="code" href="class_c_sommet.html#a71a3f1ec04298f14e57e7d3df5926036">toString</a>();
+<a name="l00017"></a>00017         <span class="keyword">protected</span>:
+<a name="l00018"></a>00018 
+<a name="l00019"></a>00019         <span class="keyword">private</span>:
+<a name="l00020"></a>00020 
+<a name="l00021"></a>00021 };
+<a name="l00022"></a>00022 <span class="preprocessor">#endif // CSOMMET_H_INCLUDED</span>
+</pre></div></div>
+<hr size="1"/><address style="text-align: right;"><small>Généré par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.2 </small></address>
+</body>
+</html>

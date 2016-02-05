@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>GeomatiqueGL:  Fichier source de D:/data/Enseignement/eclipse_ws/Geom2/src/CDonneesGraphe.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Généré par Doxygen 1.6.2 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Page&nbsp;principale</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Liste&nbsp;des&nbsp;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&nbsp;de&nbsp;fichier</span></a></li>
+    </ul>
+  </div>
+<h1>D:/data/Enseignement/eclipse_ws/Geom2/src/CDonneesGraphe.h</h1><a href="_c_donnees_graphe_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> * CDonneesGraphe.h</span>
+<a name="l00003"></a>00003 <span class="comment"> *</span>
+<a name="l00004"></a>00004 <span class="comment"> *  Created on: 24 d�c. 2009</span>
+<a name="l00005"></a>00005 <span class="comment"> *      Author: girouxi</span>
+<a name="l00006"></a>00006 <span class="comment"> */</span>
+<a name="l00007"></a>00007 
+<a name="l00008"></a>00008 <span class="preprocessor">#ifndef CDONNEESGRAPHE_H_</span>
+<a name="l00009"></a>00009 <span class="preprocessor"></span><span class="preprocessor">#define CDONNEESGRAPHE_H_</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span><span class="preprocessor">#include &lt;vector&gt;</span>
+<a name="l00011"></a>00011 <span class="preprocessor">#include &lt;string&gt;</span>
+<a name="l00012"></a>00012 <span class="preprocessor">#include &quot;<a class="code" href="_c_data2i_8h.html">CData2i.h</a>&quot;</span>
+<a name="l00013"></a>00013 <span class="preprocessor">#include &quot;<a class="code" href="_c_point3f_8h.html">CPoint3f.h</a>&quot;</span>
+<a name="l00014"></a><a class="code" href="class_c_donnees_graphe.html">00014</a> <span class="keyword">class </span><a class="code" href="class_c_donnees_graphe.html">CDonneesGraphe</a> {
+<a name="l00015"></a>00015 <span class="keyword">public</span>:
+<a name="l00016"></a><a class="code" href="class_c_donnees_graphe.html#a29213f678aaefd5ceb135a9f6a53ea72">00016</a>         std::vector &lt;CPoint3f&gt; <a class="code" href="class_c_donnees_graphe.html#a29213f678aaefd5ceb135a9f6a53ea72">SXYZ</a>;
+<a name="l00017"></a><a class="code" href="class_c_donnees_graphe.html#ab9385f7393c51962201ef30f1f06733c">00017</a>         <span class="keywordtype">int</span> <a class="code" href="class_c_donnees_graphe.html#ab9385f7393c51962201ef30f1f06733c">NS</a>;
+<a name="l00018"></a><a class="code" href="class_c_donnees_graphe.html#ac4e88e9a74a06eefa2bfcc8b91e09cce">00018</a>         std::vector&lt;CData2i&gt; <a class="code" href="class_c_donnees_graphe.html#ac4e88e9a74a06eefa2bfcc8b91e09cce">SIF</a>;
+<a name="l00019"></a><a class="code" href="class_c_donnees_graphe.html#a23065368e181ef2891938fa49575a0b8">00019</a>         <span class="keywordtype">int</span> <a class="code" href="class_c_donnees_graphe.html#a23065368e181ef2891938fa49575a0b8">NA</a>;
+<a name="l00020"></a><a class="code" href="class_c_donnees_graphe.html#a9ac6d02e903e1759524b5fbae1381001">00020</a>         std::vector&lt;CData2i&gt; <a class="code" href="class_c_donnees_graphe.html#a9ac6d02e903e1759524b5fbae1381001">PAXYZ</a>;
+<a name="l00021"></a><a class="code" href="class_c_donnees_graphe.html#a0e1c96eb70305ae8361492bab6580d16">00021</a>         std::vector&lt;CPoint3f&gt; <a class="code" href="class_c_donnees_graphe.html#a0e1c96eb70305ae8361492bab6580d16">AXYZ</a>;
+<a name="l00022"></a><a class="code" href="class_c_donnees_graphe.html#a4c2c531d254ff7b5eef757226a1f7b7f">00022</a>         <span class="keywordtype">int</span> <a class="code" href="class_c_donnees_graphe.html#a4c2c531d254ff7b5eef757226a1f7b7f">NPA</a>;
+<a name="l00023"></a>00023         <span class="keywordtype">void</span> <a class="code" href="class_c_donnees_graphe.html#acbe84f179bcd7fc0bcc14af42b633c2b">load_array_2i</a>(std::string &amp;, std::vector&lt;CData2i &gt; &amp;);
+<a name="l00024"></a>00024         <span class="keywordtype">void</span> <a class="code" href="class_c_donnees_graphe.html#ad1fae6dd3793bd26271784b85e10e74c">load_array_3d</a>(std::string &amp;,
+<a name="l00025"></a>00025                         std::vector&lt;CPoint3f &gt; &amp;);
+<a name="l00026"></a>00026         <span class="keywordtype">void</span> <a class="code" href="class_c_donnees_graphe.html#a5eb7ddcd90d172ee62b717ef85539e54">load_file</a>(std::string file_name);
+<a name="l00027"></a>00027         <span class="keywordtype">void</span> <a class="code" href="class_c_donnees_graphe.html#a90ee9a4ba659e56774661c8678034d97">afficheDonnees</a>();
+<a name="l00028"></a>00028         <span class="keywordtype">void</span> <a class="code" href="class_c_donnees_graphe.html#a6241daf531a9f64151250d9d9f803785">reshapePAXYZ</a>();
+<a name="l00029"></a>00029         <a class="code" href="class_c_donnees_graphe.html#a232c9500ee614c98a53ff4c8c7a5a6ee">CDonneesGraphe</a>(std::string sxyz_file_name, std::string, std::string, std::string);
+<a name="l00030"></a>00030         <a class="code" href="class_c_donnees_graphe.html#a232c9500ee614c98a53ff4c8c7a5a6ee">CDonneesGraphe</a>();
+<a name="l00031"></a>00031         <span class="keyword">virtual</span> <a class="code" href="class_c_donnees_graphe.html#a45853a67f71f5f0690348ebe5358588c">~CDonneesGraphe</a>();
+<a name="l00032"></a>00032 };
+<a name="l00033"></a>00033 
+<a name="l00034"></a>00034 <span class="preprocessor">#endif </span><span class="comment">/* CDONNEESGRAPHE_H_ */</span>
+</pre></div></div>
+<hr size="1"/><address style="text-align: right;"><small>Généré par&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.2 </small></address>
+</body>
+</html>
